@@ -1,0 +1,16 @@
+{
+  "name": "sars-cov-2",
+  "version": "1.0.0",
+  "description": "Load the count of SARS-COV-2 infections from the RKI and show them.",
+  "main": "getCoronaCountGermany.js",
+  "scripts": {
+    "start": "node getCoronaCountGermany.js"
+  },
+  "author": "Alexander Wunschik <dev@wunschik.net>",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.1.0"
+  }
+}
