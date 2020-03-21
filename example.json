@@ -1,0 +1,66 @@
+{
+	"meta": {
+		"sources": [{
+			"name": "Robert Koch-Institut",
+			"url": "https://www.rki.de/DE/Service/Impressum/impressum_node.html"
+		}],
+		"lastUpdate": 1584779445
+	},
+	"region": {
+		"OBJECTID": 224,
+		"GEN": "München",
+		"BEZ": "Kreisfreie Stadt",
+		"AGS": "09162",
+		"name": "SK München",
+		"state": "Bayern",
+
+		// additional data
+		"population": 1471508,
+		"desity": 4700
+	},
+	"data": {
+		"cases": 807,
+		"deaths": 5,
+		"quarantine": null
+	},
+	"distribution": {
+		"male": [{
+			"min": 5,
+			"max": 14,
+			"cases": 1,
+			"deaths": 0
+		}, {
+			"min": 15,
+			"max": 34,
+			"cases": 12,
+			"deaths": 1
+		}],
+		"female": [{
+			"min": 5,
+			"max": 14,
+			"cases": 1,
+			"deaths": 0
+		}, {
+			"min": 15,
+			"max": 34,
+			"cases": 12,
+			"deaths": 1
+		}]
+	},
+	"reports": [{
+		"timestamp": 1584230400000,
+		"cases": 1
+	}, {
+		"timestamp": 1584230400000,
+		"cases": 1
+	}],
+
+	// Vorschlag
+	"hospitals": [{
+		"name": "Beispielkrankenhaus 1",
+		"beds": 200,
+		"free": 40,
+		"ventilation": 23,
+		"ventilation_free": 13
+	}]
+}
